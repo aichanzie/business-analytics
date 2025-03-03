@@ -13,10 +13,6 @@ button:hover {
     border-color: inherit !important;
 }
 
-a:hover {
-    color: inherit !important;
-}
-
 .main-page {
     min-height: inherit;
     overflow: scroll;
