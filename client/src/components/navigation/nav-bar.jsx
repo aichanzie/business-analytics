@@ -8,6 +8,7 @@ function NavBar() {
             <Link
                 id="nav-logo"
                 color="primary"
+                href={"/"}
                 style={{
                     "&:hover": {
                         color: "primary !important",
@@ -16,7 +17,9 @@ function NavBar() {
             >
                 <AppleIcon /> RBI
             </Link>
-            <Link className="nav-link">About</Link>
+            <Link href={"/analytics"} className="nav-link">
+                About
+            </Link>
         </div>
     );
 }
