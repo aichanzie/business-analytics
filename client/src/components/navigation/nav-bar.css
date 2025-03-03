@@ -1,0 +1,33 @@
+#main-nav-bar {
+    width: 100%;
+    background-color: #1c1c1e;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 15%;
+    justify-content: space-between;
+}
+
+#main-nav-bar > a {
+    margin: 0;
+    text-decoration: none;
+    height: 100%; /* Ensure all links are the same height */
+    padding: 10px;
+    color: #f2f2f7;
+}
+
+#main-nav-bar > a:hover {
+    color: #f2f2f7 !important;
+}
+#nav-logo {
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 24pt;
+    line-height: 1px;
+}
+.nav-link {
+    align-self: end;
+    font-size: 14pt;
+    display: flex; /* Use flex to center text */
+    align-items: center; /* Vertically centers the text */
+    justify-content: center; /* Horizontally centers the text */
+}
