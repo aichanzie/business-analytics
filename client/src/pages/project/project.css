@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#section-content {
+    flex-grow: 1;
+    padding: 20px;
+}

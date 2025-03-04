@@ -1,0 +1,26 @@
+#sub-nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px 2.6% 15px 5%;
+    /* border-bottom: 1.5px solid #c7c7cc; */
+    color: #c7c7cc;
+    background-color: white;
+    font-size: 10pt;
+}
+#sub-nav-bar > a {
+    row-gap: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+#section-title {
+    flex-grow: 1;
+    font-size: large;
+    font-weight: 600;
+}
+.sub-nav-link {
+    padding-left: 30px;
+    padding-right: 0px;
+    justify-content: center;
+}

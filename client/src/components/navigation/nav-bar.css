@@ -3,7 +3,7 @@
     background-color: #1c1c1e;
     display: flex;
     flex-direction: row;
-    padding: 8px 15%;
+    padding: 8px 2%;
     justify-content: space-between;
 }
 
@@ -27,7 +27,7 @@
 .nav-link {
     align-self: end;
     font-size: 14pt;
-    display: flex; /* Use flex to center text */
-    align-items: center; /* Vertically centers the text */
-    justify-content: center; /* Horizontally centers the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
