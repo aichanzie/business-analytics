@@ -1,5 +1,7 @@
 #root {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 button {
@@ -16,4 +18,10 @@ button:hover {
 .main-page {
     min-height: inherit;
     overflow: scroll;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    height: 100vh;
 }

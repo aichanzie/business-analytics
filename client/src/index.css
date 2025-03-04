@@ -1,3 +1,17 @@
+/*
+red: 255, 59, 48 | #ff3a30
+orange: 255, 149, 0 | #ff9500
+yellow: 255, 204, 0 | #ffcc00
+green: 40, 205, 65 | #28cd41
+mint: 0, 199, 190 | #00c7bd
+teal: 89, 173, 196 | #59adc4
+cyan: 85, 190, 240 | #55bff0
+blue: 0, 122, 255 | #007bff
+indigo: 88, 86, 214 | #5856d6
+purple: 175, 82, 222 | #af52de
+pink: 255, 45, 85 | #ff2d54
+
+*/
 :root {
     font-weight: 400;
 
@@ -23,4 +37,12 @@ body {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+}
+
+.bg-system-gray-5 {
+    background-color: #e5e5ea;
+}
+
+.bg-system-gray-6 {
+    background-color: #f2f2f7;
 }
