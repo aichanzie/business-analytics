@@ -1,7 +1,7 @@
 import { Link } from "@mui/material";
 import "./nav-bar.css";
 import AppleIcon from "@mui/icons-material/Apple";
-import { color } from "d3";
+
 function NavBar() {
     return (
         <div id="main-nav-bar">
