@@ -1,0 +1,11 @@
+#section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#section-content {
+    flex-grow: 1;
+    padding: 20px;
+}
