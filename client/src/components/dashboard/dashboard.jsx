@@ -1,3 +1,4 @@
+import AnalyticsSection from "../analytics/analytics";
 import VerticalNavPanel from "../vertical-nav/vertical-nav";
 import "./dashboard.css";
 function Dashboard() {
@@ -5,7 +6,7 @@ function Dashboard() {
         <div id="section">
             <VerticalNavPanel />
             <div id="section-content" className="bg-system-gray-6">
-                Analytics Content! in dashboard
+                <AnalyticsSection />
             </div>
         </div>
     );

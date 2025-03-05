@@ -22,6 +22,4 @@ button:hover {
 .app-container {
     display: flex;
     flex-direction: column;
-    background-color: yellowgreen;
-    height: 100vh;
 }

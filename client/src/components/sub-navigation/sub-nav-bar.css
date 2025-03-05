@@ -7,6 +7,9 @@
     color: #c7c7cc;
     background-color: white;
     font-size: 10pt;
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
 }
 #sub-nav-bar > a {
     row-gap: 15px;
