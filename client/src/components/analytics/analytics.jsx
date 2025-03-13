@@ -1,7 +1,7 @@
 import "./analytics.css";
 function AnalyticsSection() {
     return (
-        <>
+        <section>
             <div className="row" style={{ height: "50vh" }}>
                 <div className="row-item">
                     <div className="row">
@@ -25,7 +25,7 @@ function AnalyticsSection() {
             <div className="row" style={{ height: "50vh" }}>
                 Row 4
             </div>
-        </>
+        </section>
     );
 }
 
