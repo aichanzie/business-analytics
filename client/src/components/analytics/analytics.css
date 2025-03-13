@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row-item {
+    flex-grow: 1;
+    border: 2px solid lightgrey;
+    margin: 0;
+    border-radius: 10px;
+}

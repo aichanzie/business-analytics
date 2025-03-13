@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import SubNavbar from "../../components/sub-navigation/sub-nav-bar";
 import VerticalNavPanel from "../../components/vertical-nav/vertical-nav";
+import Dashboard from "../../components/dashboard/dashboard";
 import "./project.css";
 import * as d3 from "d3";
 
@@ -19,12 +20,7 @@ function ProjectPage() {
     return (
         <div className="container">
             <SubNavbar />
-            <div id="section">
-                <VerticalNavPanel />
-                <div id="section-content" className="bg-system-gray-6">
-                    Analytics Content!
-                </div>
-            </div>
+            <Dashboard />
         </div>
     );
 }
